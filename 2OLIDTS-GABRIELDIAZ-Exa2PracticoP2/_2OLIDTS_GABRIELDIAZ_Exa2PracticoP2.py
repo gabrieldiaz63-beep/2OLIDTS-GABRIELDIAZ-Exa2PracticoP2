@@ -19,7 +19,7 @@ while temp != None:
     print(temp["dato"])
     temp = temp["siguiente"]
 
-print("\n--- Borrar un elemento ---")
+print("\n- Borrar un elemento -")
 eliminar = input("¿Cual quieres eliminar?: ")
 actual = cabeza
 previo = None
@@ -36,10 +36,10 @@ while actual != None:
     previo = actual
     actual = actual["siguiente"]
 
-print("\n--- Lista final ---")
+print("\n- Lista final -")
 temp = cabeza
 while temp != None:
     print(temp["dato"])
     temp = temp["siguiente"]
 
-input("\nPresiona Enter para cerrar...")
+input("\nPresiona Enter")
